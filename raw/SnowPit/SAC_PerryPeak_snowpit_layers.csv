@@ -1,0 +1,11 @@
+top_cm,bottom_cm,grain_form,grain_size_mm,moisture,hardness,note
+304,284,PP,1-2,D,F,
+284,269,?,1-2.5,D,F-,
+269,246,PP(DF),1-2(1),D,F,Some Graupel 3mm
+246,212,DF,1-1.5,D-M,4F,
+212,159,DF,1-1.5,D-M,1F,
+159,155,RG,1-2,D-M,4F,Feb 15 layer
+155,154,IFrc,,,K,Feb 10 RC
+154,137,FCxr,1-1.5,D-M,4F+,Feb 10 Facet Layer; Problematic layer
+137,120,RG,1,D-M,P,
+120,0,,,,,Probed to Ground
