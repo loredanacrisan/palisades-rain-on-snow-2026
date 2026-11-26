@@ -1,0 +1,317 @@
+#------------------------------------------------- WARNING --------------------------------------------
+# 
+# The data you have obtained from this automated Natural Resources Conservation Service 
+# database are subject to revision regardless of indicated Quality Assurance level. 
+# Data are released on condition that neither the NRCS nor the United States Government 
+# may be held liable for any damages resulting from its use. 
+# 
+# SNOTEL air temperature data contains a known bias. This bias is rooted in the sensor 
+# conversion equation and varies through the output range. Solutions are in development. 
+# For more information go to Air Temperature Bias Correction. 
+# 
+# Help and Tutorials: https://www.nrcs.usda.gov/sites/default/files/2023-03/Report%20Generator%20Help%20Guide.pdf
+# Air Temperature Bias Correction: https://www.nrcs.usda.gov/wps/portal/wcc/home/snowClimateMonitoring/temperature/temperatureBiasCorrection/
+# 
+# Support Contact: FPACITServiceDesk@usda.gov
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Reporting Frequency: Hourly
+# Date Range: 2026-02-19 00:00 to 2026-02-28 23:00
+#
+# Data for the following site(s) are contained in this file:
+#
+#	SNOTEL 784: Palisades Tahoe, CA
+# 
+# Data items provided in this file:
+#
+# Element Name                Value Type  Function Type  Function Duration  Base Data  Measurement Units    Sensor Depth  Element Code  Description                                                                                        
+# Air Temperature Observed    Value       None           Instantaneous      N/A        Degrees fahrenheit   N/A           TOBS          Instantaneously observed air temperature                                                           
+# Air Temperature Observed    Qc flag     None           Instantaneous      N/A        Degrees fahrenheit   N/A           TOBS          Instantaneously observed air temperature                                                           
+# Air Temperature Observed    Qa flag     None           Instantaneous      N/A        Degrees fahrenheit   N/A           TOBS          Instantaneously observed air temperature                                                           
+# Precipitation Accumulation  Value       None           Instantaneous      N/A        Inches               N/A           PREC          Water year accumulated precipitation                                                               
+# Precipitation Accumulation  Qc flag     None           Instantaneous      N/A        Inches               N/A           PREC          Water year accumulated precipitation                                                               
+# Precipitation Accumulation  Qa flag     None           Instantaneous      N/A        Inches               N/A           PREC          Water year accumulated precipitation                                                               
+# Snow Water Equivalent       Value       None           Instantaneous      N/A        Inches               N/A           WTEQ          Depth of water that would theoretically result if the entire snowpack were melted instantaneously  
+# Snow Water Equivalent       Qc flag     None           Instantaneous      N/A        Inches               N/A           WTEQ          Depth of water that would theoretically result if the entire snowpack were melted instantaneously  
+# Snow Water Equivalent       Qa flag     None           Instantaneous      N/A        Inches               N/A           WTEQ          Depth of water that would theoretically result if the entire snowpack were melted instantaneously  
+# Snow Depth                  Value       None           Instantaneous      N/A        Inches               N/A           SNWD          Total snow depth                                                                                   
+# Snow Depth                  Qc flag     None           Instantaneous      N/A        Inches               N/A           SNWD          Total snow depth                                                                                   
+# Snow Depth                  Qa flag     None           Instantaneous      N/A        Inches               N/A           SNWD          Total snow depth                                                                                   
+# Wind Speed Average          Value       None           Hour               N/A        Miles/hour           N/A           WSPDV         Average wind speed                                                                                 
+# Wind Speed Average          Qc flag     None           Hour               N/A        Miles/hour           N/A           WSPDV         Average wind speed                                                                                 
+# Wind Speed Average          Qa flag     None           Hour               N/A        Miles/hour           N/A           WSPDV         Average wind speed                                                                                 
+# Wind Direction Average      Value       None           Hour               N/A        Degrees              N/A           WDIRV         Average wind direction                                                                             
+# Relative Humidity           Value       None           Instantaneous      N/A        Percent              N/A           RHUM          Relative humidity                                                                                  
+# Solar Radiation Average     Value       None           Hour               N/A        Watts/meter squared  N/A           SRADV         Average solar radiation                                                                            
+# 
+# Quality Control flags included:
+#
+# Flag    Name                Description
+#  V      Valid               Validated Data
+#  N      No Profile          No profile for automated validation
+#  E      Edit                Edit, minor adjustment for sensor noise
+#  K      Estimate            Estimate
+#  C      Correction          A different equation has been applied to the original sensor voltage
+#  B      Back Estimate       Regression-based estimate for homogenizing collocated Snow Course and Snow Pillow data sets
+#  X      External Estimate   External estimate
+#  S      Suspect             Suspect data
+#  M      Missing             Value is missing
+# 
+# Quality Assurance flags included:
+#
+# Flag    Name                Description
+#  U      Unknown             Unknown
+#  R      Raw                 No Human Review
+#  P      Provisional         Preliminary Human Review
+#  A      Approved            Processing and Final Review Completed
+# 
+#------------------------------------------------------------------------------------------------------
+# 
+# Palisades Tahoe (784) 
+# California  SNOTEL Site - 8010 ft
+# Reporting Frequency: Hourly; Date Range: 2026-02-19 00:00 to 2026-02-28 23:00
+#
+# As of: Nov 8, 2026, 8:41:44 AM GMT-08:00
+#
+Date,Air Temperature Observed (degF),Air Temperature Observed QC Flag,Air Temperature Observed QA Flag,Precipitation Accumulation (in),Precipitation Accumulation QC Flag,Precipitation Accumulation QA Flag,Snow Water Equivalent (in),Snow Water Equivalent QC Flag,Snow Water Equivalent QA Flag,Snow Depth (in),Snow Depth QC Flag,Snow Depth QA Flag,Wind Speed Average (mph),Wind Speed Average QC Flag,Wind Speed Average QA Flag,Wind Direction Average (degree),Relative Humidity (pct),Solar Radiation Average (watt/m2)
+2026-02-19 00:00,14.5,V,A,38.60,E,A,21.6,V,A,76,V,A,5.9,V,R,40,,
+2026-02-19 01:00,15.1,V,A,36.10,V,R,21.7,V,R,78,V,R,5.4,V,R,40,,
+2026-02-19 02:00,15.4,V,A,36.10,V,R,21.8,V,R,79,V,R,7.0,V,R,133,,
+2026-02-19 03:00,16.0,V,A,36.00,V,R,21.8,V,R,80,V,R,6.1,V,R,140,,
+2026-02-19 04:00,16.2,V,A,36.10,V,R,21.9,V,R,80,V,R,9.0,V,R,176,,
+2026-02-19 05:00,16.3,V,A,36.10,V,R,22.0,V,R,81,V,R,10.1,V,R,212,,
+2026-02-19 06:00,16.3,V,A,36.10,V,R,22.0,V,R,82,V,R,8.0,V,R,221,,
+2026-02-19 07:00,16.7,V,A,36.10,V,R,22.0,V,R,82,V,R,2.1,V,R,106,,
+2026-02-19 08:00,17.2,V,A,36.10,V,R,22.1,V,R,83,V,R,2.0,V,R,121,,
+2026-02-19 09:00,17.6,V,A,36.10,V,R,22.2,V,R,84,V,R,2.2,V,R,124,,
+2026-02-19 10:00,18.5,V,A,36.10,V,R,22.4,V,R,88,V,R,13.8,V,R,203,,
+2026-02-19 11:00,16.9,V,A,36.00,V,R,22.6,V,R,90,V,R,7.9,V,R,124,,
+2026-02-19 12:00,16.0,V,A,36.10,V,R,22.7,V,R,91,V,R,9.4,V,R,0,,
+2026-02-19 13:00,16.2,V,A,38.30,V,R,22.9,V,R,91,V,R,11.6,V,R,301,,
+2026-02-19 14:00,15.8,V,A,38.10,V,R,22.8,V,R,91,V,R,18.8,V,R,279,,
+2026-02-19 15:00,14.9,V,A,38.20,V,R,22.9,V,R,90,V,R,20.8,V,R,275,,
+2026-02-19 16:00,13.8,V,A,38.30,V,R,22.8,V,R,89,V,R,17.8,V,R,270,,
+2026-02-19 17:00,13.6,V,A,38.20,V,R,22.8,V,R,88,V,R,14.5,V,R,267,,
+2026-02-19 18:00,13.5,V,A,38.30,V,R,22.7,V,R,88,V,R,12.6,V,R,272,,
+2026-02-19 19:00,13.5,V,A,38.20,V,R,22.7,V,R,87,V,R,9.6,V,R,276,,
+2026-02-19 20:00,13.8,V,A,38.30,V,R,22.7,V,R,86,V,R,9.4,V,R,274,,
+2026-02-19 21:00,12.9,V,A,38.30,V,R,22.7,V,R,85,V,R,5.0,V,R,284,,
+2026-02-19 22:00,11.5,V,A,38.30,V,R,22.6,V,R,85,V,R,3.1,V,R,269,,
+2026-02-19 23:00,11.8,V,A,38.30,V,R,22.6,V,R,84,V,R,5.3,V,R,292,,
+2026-02-20 00:00,11.8,V,A,38.70,E,A,22.6,V,A,84,V,A,2.7,V,R,285,,
+2026-02-20 01:00,11.3,V,A,38.40,V,R,22.6,V,R,84,V,R,2.3,V,R,337,,
+2026-02-20 02:00,10.6,V,A,38.40,V,R,22.6,V,R,84,V,R,6.5,V,R,299,,
+2026-02-20 03:00,11.5,V,A,38.40,V,R,22.6,V,R,84,V,R,7.3,V,R,312,,
+2026-02-20 04:00,11.8,V,A,38.40,V,R,22.6,V,R,83,V,R,4.9,V,R,310,,
+2026-02-20 05:00,11.5,V,A,38.40,V,R,22.6,V,R,83,V,R,7.1,V,R,277,,
+2026-02-20 06:00,10.9,V,A,38.40,V,R,22.5,V,R,83,V,R,8.2,V,R,278,,
+2026-02-20 07:00,10.2,V,A,38.40,V,R,22.5,V,R,83,V,R,5.1,V,R,283,,
+2026-02-20 08:00,10.6,V,A,38.50,V,R,22.5,V,R,82,V,R,4.6,V,R,255,,
+2026-02-20 09:00,11.5,V,A,38.50,V,R,22.5,V,R,82,V,R,4.9,V,R,257,,
+2026-02-20 10:00,15.1,V,A,38.50,V,R,22.6,V,R,82,V,R,4.8,V,R,240,,
+2026-02-20 11:00,16.7,V,A,38.50,V,R,22.6,V,R,82,V,R,3.4,V,R,230,,
+2026-02-20 12:00,19.2,V,A,38.60,V,R,22.7,V,R,82,V,R,5.6,V,R,233,,
+2026-02-20 13:00,20.5,V,A,38.60,V,R,22.8,V,R,82,V,R,4.3,V,R,233,,
+2026-02-20 14:00,21.7,V,A,38.60,V,R,22.8,V,R,82,V,R,4.3,V,R,260,,
+2026-02-20 15:00,22.3,V,A,38.60,V,R,22.8,V,R,81,V,R,1.3,V,R,119,,
+2026-02-20 16:00,22.5,V,A,38.70,V,R,22.8,V,R,81,V,R,5.7,V,R,260,,
+2026-02-20 17:00,21.0,V,A,38.60,V,R,22.8,V,R,82,V,R,7.3,V,R,261,,
+2026-02-20 18:00,20.1,V,A,38.60,V,R,22.7,V,R,81,V,R,5.5,V,R,261,,
+2026-02-20 19:00,20.7,V,A,38.60,V,R,22.7,V,R,81,V,R,0.7,V,R,261,,
+2026-02-20 20:00,17.8,V,A,38.60,V,R,22.7,V,R,81,V,R,0.8,V,R,261,,
+2026-02-20 21:00,18.0,V,A,38.60,V,R,22.6,V,R,81,V,R,1.4,V,R,261,,
+2026-02-20 22:00,24.3,V,A,38.60,V,R,22.6,V,R,81,V,R,7.3,V,R,261,,
+2026-02-20 23:00,22.5,V,A,38.60,V,R,22.6,V,R,80,V,R,9.5,V,R,260,,
+2026-02-21 00:00,18.1,V,A,38.70,E,A,22.6,V,A,80,V,A,12.9,V,R,262,,
+2026-02-21 01:00,19.8,V,A,38.60,V,R,22.6,V,R,80,V,R,11.1,V,R,221,,
+2026-02-21 02:00,21.4,V,A,38.60,V,R,22.7,V,R,80,V,R,11.6,V,R,211,,
+2026-02-21 03:00,22.5,V,A,38.60,V,R,22.7,V,R,80,V,R,8.9,V,R,215,,
+2026-02-21 04:00,21.0,V,A,38.60,V,R,22.7,V,R,79,V,R,9.6,V,R,224,,
+2026-02-21 05:00,21.0,V,A,38.60,V,R,22.6,V,R,79,V,R,10.7,V,R,209,,
+2026-02-21 06:00,24.6,V,A,38.60,V,R,22.6,V,R,79,V,R,12.0,V,R,210,,
+2026-02-21 07:00,24.3,V,A,38.60,V,R,22.6,V,R,78,V,R,11.9,V,R,214,,
+2026-02-21 08:00,24.6,V,A,38.60,V,R,22.6,V,R,78,V,R,10.4,V,R,209,,
+2026-02-21 09:00,24.8,V,A,38.60,V,R,22.6,V,R,78,V,R,11.7,V,R,223,,
+2026-02-21 10:00,25.3,V,A,38.60,V,R,22.6,V,R,78,V,R,11.6,V,R,221,,
+2026-02-21 11:00,29.3,V,A,38.60,V,R,22.6,V,R,77,V,R,9.4,V,R,172,,
+2026-02-21 12:00,28.8,V,A,38.70,V,R,22.7,V,R,77,V,R,9.6,V,R,183,,
+2026-02-21 13:00,28.6,V,A,38.60,V,R,22.7,V,R,76,V,R,14.6,V,R,205,,
+2026-02-21 14:00,28.4,V,A,38.70,V,R,22.7,V,R,76,V,R,14.2,V,R,205,,
+2026-02-21 15:00,28.9,V,A,38.70,V,R,22.7,V,R,76,V,R,14.0,V,R,204,,
+2026-02-21 16:00,29.3,V,A,38.70,V,R,22.7,V,R,76,V,R,13.1,V,R,186,,
+2026-02-21 17:00,29.1,V,A,38.70,V,R,22.7,V,R,76,V,R,10.6,V,R,179,,
+2026-02-21 18:00,28.4,V,A,38.70,V,R,22.7,V,R,76,V,R,12.0,V,R,192,,
+2026-02-21 19:00,28.2,V,A,38.70,V,R,22.6,V,R,76,V,R,15.0,V,R,200,,
+2026-02-21 20:00,28.4,V,A,38.70,V,R,22.6,V,R,76,V,R,12.8,V,R,178,,
+2026-02-21 21:00,27.1,V,A,38.70,V,R,22.7,V,R,76,V,R,11.3,V,R,162,,
+2026-02-21 22:00,26.1,V,A,38.70,V,R,22.7,V,R,75,V,R,15.5,V,R,184,,
+2026-02-21 23:00,27.1,V,A,38.50,V,R,22.7,V,R,75,V,R,19.9,V,R,206,,
+2026-02-22 00:00,28.9,V,A,38.70,E,A,22.6,E,A,75,V,A,19.8,V,R,207,,
+2026-02-22 01:00,29.3,V,A,38.60,V,R,22.7,V,R,75,V,R,14.0,V,R,174,,
+2026-02-22 02:00,29.3,V,A,38.50,V,R,22.8,V,R,75,V,R,10.2,V,R,152,,
+2026-02-22 03:00,28.9,V,A,38.60,V,R,22.7,V,R,75,V,R,8.9,V,R,140,,
+2026-02-22 04:00,28.2,V,A,38.70,V,R,22.7,V,R,75,V,R,8.9,V,R,125,,
+2026-02-22 05:00,28.9,V,A,38.60,V,R,22.7,V,R,75,V,R,9.2,V,R,93,,
+2026-02-22 06:00,28.0,V,A,38.60,V,R,22.7,V,R,74,V,R,8.6,V,R,98,,
+2026-02-22 07:00,28.2,V,A,38.70,V,R,22.7,V,R,74,V,R,9.1,V,R,90,,
+2026-02-22 08:00,28.9,V,A,38.70,V,R,22.7,V,R,74,V,R,8.1,V,R,140,,
+2026-02-22 09:00,30.6,V,A,38.70,V,R,22.7,V,R,74,V,R,8.8,V,R,150,,
+2026-02-22 10:00,32.4,V,A,38.70,V,R,22.7,V,R,74,V,R,7.3,V,R,150,,
+2026-02-22 11:00,32.9,V,A,38.70,V,R,22.7,V,R,74,V,R,6.7,V,R,140,,
+2026-02-22 12:00,34.3,V,A,38.70,V,R,22.7,V,R,74,V,R,7.9,V,R,136,,
+2026-02-22 13:00,35.1,V,A,38.70,V,R,22.7,V,R,74,V,R,6.2,V,R,129,,
+2026-02-22 14:00,34.3,V,A,38.70,V,R,22.7,V,R,73,V,R,6.5,V,R,73,,
+2026-02-22 15:00,35.1,V,A,38.70,V,R,22.7,V,R,73,V,R,5.2,V,R,119,,
+2026-02-22 16:00,34.5,V,A,38.70,V,R,22.7,V,R,73,V,R,6.4,V,R,145,,
+2026-02-22 17:00,33.1,V,A,38.70,V,R,22.6,V,R,73,V,R,7.9,V,R,162,,
+2026-02-22 18:00,32.7,V,A,38.70,V,R,22.6,V,R,73,V,R,9.4,V,R,222,,
+2026-02-22 19:00,32.9,V,A,38.60,V,R,22.6,V,R,73,V,R,12.0,V,R,220,,
+2026-02-22 20:00,33.3,V,A,38.70,V,R,22.7,V,R,73,V,R,12.7,V,R,212,,
+2026-02-22 21:00,34.0,V,A,38.70,V,R,22.6,V,R,73,V,R,10.7,V,R,190,,
+2026-02-22 22:00,33.6,V,A,38.70,V,R,22.6,V,R,73,V,R,10.2,V,R,180,,
+2026-02-22 23:00,33.4,V,A,38.70,V,R,22.7,V,R,73,V,R,11.7,V,R,184,,
+2026-02-23 00:00,33.4,V,A,38.70,V,A,22.6,V,A,72,V,A,6.9,V,R,132,,
+2026-02-23 01:00,32.2,V,A,38.60,V,R,22.7,V,R,72,V,R,6.2,V,R,116,,
+2026-02-23 02:00,32.5,V,A,38.70,V,R,22.7,V,R,72,V,R,8.2,V,R,155,,
+2026-02-23 03:00,33.8,V,A,38.70,V,R,22.7,V,R,72,V,R,7.7,V,R,138,,
+2026-02-23 04:00,34.5,V,A,38.70,V,R,22.7,V,R,72,V,R,6.3,V,R,117,,
+2026-02-23 05:00,34.2,V,A,38.70,V,R,22.7,V,R,72,V,R,6.5,V,R,147,,
+2026-02-23 06:00,34.7,V,A,38.70,V,R,22.7,V,R,72,V,R,6.7,V,R,155,,
+2026-02-23 07:00,35.6,V,A,38.70,V,R,22.7,V,R,72,V,R,8.3,V,R,157,,
+2026-02-23 08:00,36.9,V,A,38.70,V,R,22.7,V,R,72,V,R,7.5,V,R,170,,
+2026-02-23 09:00,38.3,V,A,38.70,V,R,22.7,V,R,71,V,R,7.7,V,R,168,,
+2026-02-23 10:00,39.4,V,A,38.70,V,R,22.7,V,R,71,V,R,8.3,V,R,164,,
+2026-02-23 11:00,40.6,V,A,38.70,V,R,22.8,V,R,71,V,R,9.7,V,R,168,,
+2026-02-23 12:00,41.9,V,A,38.70,V,R,22.8,V,R,71,V,R,6.1,V,R,99,,
+2026-02-23 13:00,43.0,V,A,38.70,V,R,22.8,V,R,71,V,R,6.4,V,R,55,,
+2026-02-23 14:00,42.6,V,A,38.70,V,R,22.8,V,R,71,V,R,6.8,V,R,89,,
+2026-02-23 15:00,43.0,V,A,38.70,V,R,22.8,V,R,70,V,R,9.8,V,R,11,,
+2026-02-23 16:00,40.1,V,A,38.70,V,R,22.8,V,R,70,V,R,8.4,V,R,63,,
+2026-02-23 17:00,38.7,V,A,38.70,V,R,22.8,V,R,70,V,R,11.3,V,R,6,,
+2026-02-23 18:00,37.9,V,A,38.60,V,R,22.7,V,R,69,V,R,12.0,V,R,332,,
+2026-02-23 19:00,36.9,V,A,38.60,V,R,22.7,V,R,69,V,R,9.3,V,R,32,,
+2026-02-23 20:00,37.6,V,A,38.70,V,R,22.8,V,R,69,V,R,10.1,V,R,336,,
+2026-02-23 21:00,37.2,V,A,38.70,V,R,22.7,V,R,69,V,R,13.8,V,R,319,,
+2026-02-23 22:00,35.2,V,A,38.60,V,R,22.6,V,R,69,V,R,15.1,V,R,312,,
+2026-02-23 23:00,33.1,V,A,38.70,V,R,22.8,V,R,69,V,R,13.7,V,R,317,,
+2026-02-24 00:00,32.4,V,A,38.70,V,A,22.6,E,A,69,V,A,12.3,V,R,354,,
+2026-02-24 01:00,30.2,V,A,38.70,V,R,22.8,V,R,69,V,R,9.9,V,R,55,,
+2026-02-24 02:00,31.3,V,A,38.70,V,R,22.9,V,R,69,V,R,13.4,V,R,319,,
+2026-02-24 03:00,33.6,V,A,39.00,V,R,22.8,V,R,68,V,R,14.6,V,R,330,,
+2026-02-24 04:00,33.4,V,A,38.80,V,R,23.1,V,R,69,V,R,17.4,V,R,306,,
+2026-02-24 05:00,35.6,V,A,39.10,V,R,23.4,V,R,69,V,R,15.4,V,R,312,,
+2026-02-24 06:00,36.3,V,A,39.00,V,R,23.6,V,R,68,V,R,15.6,V,R,319,,
+2026-02-24 07:00,37.0,V,A,39.30,V,R,23.9,V,R,68,V,R,15.0,V,R,319,,
+2026-02-24 08:00,36.3,V,A,39.40,V,R,24.2,V,R,68,V,R,11.0,V,R,323,,
+2026-02-24 09:00,36.3,V,A,39.50,V,R,24.4,V,R,68,V,R,10.3,V,R,26,,
+2026-02-24 10:00,37.0,V,A,39.60,V,R,24.5,V,R,67,V,R,10.6,V,R,16,,
+2026-02-24 11:00,38.1,V,A,39.80,V,R,24.4,V,R,66,V,R,14.2,V,R,322,,
+2026-02-24 12:00,36.7,V,A,39.90,V,R,24.8,V,R,65,V,R,10.8,V,R,13,,
+2026-02-24 13:00,37.0,V,A,40.00,V,R,25.2,V,R,64,V,R,9.7,V,R,97,,
+2026-02-24 14:00,37.2,V,A,40.20,V,R,25.2,V,R,64,V,R,9.4,V,R,103,,
+2026-02-24 15:00,37.2,V,A,40.30,V,R,25.3,V,R,64,V,R,10.3,V,R,119,,
+2026-02-24 16:00,37.6,V,A,40.40,V,R,25.4,V,R,64,V,R,10.9,V,R,126,,
+2026-02-24 17:00,37.6,V,A,40.50,V,R,25.4,V,R,63,V,R,13.2,V,R,333,,
+2026-02-24 18:00,35.1,V,A,40.70,V,R,25.5,V,R,63,V,R,15.3,V,R,320,,
+2026-02-24 19:00,33.1,V,A,40.90,V,R,25.6,V,R,63,V,R,8.7,V,R,142,,
+2026-02-24 20:00,34.0,V,A,41.10,V,R,25.5,V,R,63,V,R,11.1,V,R,163,,
+2026-02-24 21:00,35.2,V,A,41.10,V,R,25.5,V,R,63,V,R,11.1,V,R,154,,
+2026-02-24 22:00,35.4,V,A,41.50,V,R,25.4,V,R,63,V,R,8.7,V,R,149,,
+2026-02-24 23:00,35.2,V,A,41.60,V,R,25.4,V,R,63,V,R,8.2,V,R,140,,
+2026-02-25 00:00,35.8,V,A,41.80,V,A,25.5,V,A,63,V,A,7.5,V,R,82,,
+2026-02-25 01:00,36.5,V,A,42.00,V,R,25.4,V,R,62,V,R,7.8,V,R,352,,
+2026-02-25 02:00,37.2,V,A,42.10,V,R,25.5,V,R,62,V,R,8.2,V,R,343,,
+2026-02-25 03:00,37.2,V,A,42.20,V,R,25.5,V,R,62,V,R,10.6,V,R,302,,
+2026-02-25 04:00,37.9,V,A,42.20,V,R,25.4,V,R,61,V,R,13.0,V,R,301,,
+2026-02-25 05:00,37.9,V,A,42.60,V,R,25.4,V,R,61,V,R,13.2,V,R,299,,
+2026-02-25 06:00,39.2,V,A,42.70,V,R,25.3,V,R,61,V,R,13.7,V,R,287,,
+2026-02-25 07:00,38.5,V,A,42.70,V,R,25.1,V,R,60,V,R,15.2,V,R,288,,
+2026-02-25 08:00,38.8,V,A,42.80,V,R,25.0,V,R,60,V,R,15.4,V,R,285,,
+2026-02-25 09:00,39.2,V,A,42.70,V,R,24.8,V,R,60,V,R,16.8,V,R,285,,
+2026-02-25 10:00,39.4,V,A,42.50,V,R,24.6,V,R,59,V,R,16.3,V,R,281,,
+2026-02-25 11:00,39.2,V,A,42.80,V,R,24.4,V,R,59,V,R,15.1,V,R,279,,
+2026-02-25 12:00,38.8,V,A,42.80,V,R,24.2,V,R,59,V,R,15.0,V,R,286,,
+2026-02-25 13:00,39.0,V,A,42.80,V,R,24.1,V,R,59,V,R,14.9,V,R,273,,
+2026-02-25 14:00,38.8,V,A,42.70,V,R,23.9,V,R,58,V,R,16.1,V,R,277,,
+2026-02-25 15:00,39.0,V,A,42.80,V,R,23.7,V,R,58,V,R,15.8,V,R,278,,
+2026-02-25 16:00,38.3,V,A,42.70,V,R,23.6,V,R,57,V,R,14.0,V,R,274,,
+2026-02-25 17:00,38.3,V,A,42.80,V,R,23.5,V,R,57,V,R,11.9,V,R,275,,
+2026-02-25 18:00,37.8,V,A,42.80,V,R,23.3,V,R,57,V,R,10.4,V,R,273,,
+2026-02-25 19:00,37.8,V,A,42.80,V,R,23.2,V,R,57,V,R,11.7,V,R,277,,
+2026-02-25 20:00,37.4,V,A,42.80,V,R,23.1,V,R,57,V,R,9.4,V,R,273,,
+2026-02-25 21:00,37.2,V,A,42.80,V,R,23.0,V,R,57,V,R,10.3,V,R,269,,
+2026-02-25 22:00,37.8,V,A,42.80,V,R,22.9,V,R,57,V,R,11.5,V,R,272,,
+2026-02-25 23:00,37.4,V,A,42.80,V,R,22.9,V,R,57,V,R,11.0,V,R,273,,
+2026-02-26 00:00,37.9,V,A,42.90,E,A,22.8,V,A,57,V,A,13.5,V,R,275,,
+2026-02-26 01:00,38.5,V,A,42.80,V,R,22.7,V,R,56,V,R,14.8,V,R,271,,
+2026-02-26 02:00,39.4,V,A,42.80,V,R,22.7,V,R,57,V,R,15.7,V,R,273,,
+2026-02-26 03:00,39.2,V,A,42.80,V,R,22.6,V,R,57,V,R,14.5,V,R,272,,
+2026-02-26 04:00,38.7,V,A,42.80,V,R,22.6,V,R,57,V,R,15.8,V,R,267,,
+2026-02-26 05:00,39.2,V,A,42.80,V,R,22.6,V,R,57,V,R,13.4,V,R,271,,
+2026-02-26 06:00,38.7,V,A,42.80,V,R,22.5,V,R,57,V,R,10.4,V,R,275,,
+2026-02-26 07:00,38.8,V,A,42.90,V,R,22.5,V,R,57,V,R,8.2,V,R,281,,
+2026-02-26 08:00,39.0,V,A,42.90,V,R,22.4,V,R,57,V,R,8.9,V,R,267,,
+2026-02-26 09:00,39.6,V,A,42.80,V,R,22.4,V,R,57,V,R,7.9,V,R,276,,
+2026-02-26 10:00,40.8,V,A,42.80,V,R,22.4,V,R,57,V,R,6.0,V,R,270,,
+2026-02-26 11:00,40.6,V,A,42.80,V,R,22.4,V,R,56,V,R,6.6,V,R,267,,
+2026-02-26 12:00,42.1,V,A,42.80,V,R,22.4,V,R,56,V,R,6.5,V,R,272,,
+2026-02-26 13:00,43.9,V,A,42.80,V,R,22.4,V,R,56,V,R,6.8,V,R,273,,
+2026-02-26 14:00,44.4,V,A,42.80,V,R,22.4,V,R,56,V,R,6.6,V,R,279,,
+2026-02-26 15:00,44.8,V,A,42.80,V,R,22.3,V,R,55,V,R,5.8,V,R,279,,
+2026-02-26 16:00,44.6,V,A,42.80,V,R,22.2,V,R,55,V,R,6.2,V,R,273,,
+2026-02-26 17:00,42.4,V,A,42.80,V,R,22.2,V,R,55,V,R,5.1,V,R,282,,
+2026-02-26 18:00,40.8,V,A,42.80,V,R,22.2,V,R,55,V,R,3.9,V,R,273,,
+2026-02-26 19:00,41.0,V,A,42.80,V,R,22.2,V,R,55,V,R,3.6,V,R,302,,
+2026-02-26 20:00,41.2,V,A,42.80,V,R,22.1,V,R,55,V,R,1.9,V,R,318,,
+2026-02-26 21:00,41.0,V,A,42.80,V,R,22.1,V,R,55,V,R,1.2,V,R,328,,
+2026-02-26 22:00,41.4,V,A,42.80,V,R,22.1,V,R,55,V,R,0.4,V,R,272,,
+2026-02-26 23:00,39.9,V,A,42.90,V,R,22.1,V,R,55,V,R,0.7,V,R,296,,
+2026-02-27 00:00,40.3,V,A,42.90,E,A,22.1,V,A,55,V,A,2.3,V,R,289,,
+2026-02-27 01:00,41.4,V,A,42.90,V,R,22.1,V,R,55,V,R,2.4,V,R,315,,
+2026-02-27 02:00,41.5,V,A,42.90,V,R,22.0,V,R,55,V,R,4.6,V,R,279,,
+2026-02-27 03:00,44.6,V,A,42.90,V,R,22.0,V,R,54,V,R,4.8,V,R,299,,
+2026-02-27 04:00,43.2,V,A,42.90,V,R,22.0,V,R,54,V,R,10.5,V,R,301,,
+2026-02-27 05:00,44.6,V,A,42.70,V,R,22.0,V,R,54,V,R,9.0,V,R,301,,
+2026-02-27 06:00,43.5,V,A,42.90,V,R,22.0,V,R,54,V,R,6.0,V,R,299,,
+2026-02-27 07:00,41.7,V,A,42.90,V,R,22.0,V,R,55,V,R,3.7,V,R,316,,
+2026-02-27 08:00,42.6,V,A,42.80,V,R,22.0,V,R,54,V,R,5.2,V,R,295,,
+2026-02-27 09:00,42.8,V,A,42.90,V,R,22.0,V,R,55,V,R,3.4,V,R,320,,
+2026-02-27 10:00,44.1,V,A,42.80,V,R,22.0,V,R,54,V,R,2.1,V,R,89,,
+2026-02-27 11:00,44.6,V,A,42.80,V,R,22.0,V,R,54,V,R,2.1,V,R,110,,
+2026-02-27 12:00,46.4,V,A,42.80,V,R,22.0,V,R,54,V,R,1.5,V,R,198,,
+2026-02-27 13:00,46.8,V,A,42.80,V,R,22.1,V,R,53,V,R,0.6,V,R,266,,
+2026-02-27 14:00,51.6,V,A,42.80,V,R,22.0,V,R,53,V,R,3.8,V,R,283,,
+2026-02-27 15:00,48.9,V,A,42.80,V,R,22.0,V,R,53,V,R,5.7,V,R,286,,
+2026-02-27 16:00,46.8,V,A,42.80,V,R,22.0,V,R,54,V,R,8.1,V,R,283,,
+2026-02-27 17:00,44.6,V,A,42.80,V,R,22.0,V,R,54,V,R,6.5,V,R,279,,
+2026-02-27 18:00,42.6,V,A,42.80,V,R,22.0,V,R,53,V,R,2.5,V,R,295,,
+2026-02-27 19:00,43.7,V,A,42.80,V,R,22.0,V,R,53,V,R,1.5,V,R,293,,
+2026-02-27 20:00,42.4,V,A,42.80,V,R,21.9,V,R,53,V,R,1.2,V,R,287,,
+2026-02-27 21:00,42.3,V,A,42.90,V,R,21.9,V,R,54,V,R,1.4,V,R,281,,
+2026-02-27 22:00,41.0,V,A,42.90,V,R,21.9,V,R,53,V,R,1.4,V,R,288,,
+2026-02-27 23:00,41.4,V,A,42.90,V,R,21.8,V,R,53,V,R,1.2,V,R,279,,
+2026-02-28 00:00,40.1,V,A,42.90,V,A,21.6,E,A,53,V,A,1.9,V,R,174,,
+2026-02-28 01:00,41.2,V,A,42.90,V,R,21.8,V,R,53,V,R,1.6,V,R,242,,
+2026-02-28 02:00,41.9,V,A,42.90,V,R,21.8,V,R,53,V,R,4.6,V,R,176,,
+2026-02-28 03:00,45.5,V,A,42.90,V,R,21.8,V,R,53,V,R,2.6,V,R,216,,
+2026-02-28 04:00,44.4,V,A,42.90,V,R,21.8,V,R,54,V,R,4.5,V,R,278,,
+2026-02-28 05:00,43.7,V,A,42.90,V,R,21.7,V,R,53,V,R,6.4,V,R,271,,
+2026-02-28 06:00,43.5,V,A,42.90,V,R,21.7,V,R,53,V,R,7.1,V,R,268,,
+2026-02-28 07:00,44.1,V,A,42.90,V,R,21.7,V,R,53,V,R,8.9,V,R,262,,
+2026-02-28 08:00,44.2,V,A,42.90,V,R,21.7,V,R,53,V,R,6.8,V,R,268,,
+2026-02-28 09:00,45.1,V,A,42.90,V,R,21.7,V,R,53,V,R,4.7,V,R,275,,
+2026-02-28 10:00,46.6,V,A,42.90,V,R,21.6,V,R,53,V,R,4.6,V,R,248,,
+2026-02-28 11:00,47.7,V,A,42.90,V,R,21.7,V,R,53,V,R,3.2,V,R,171,,
+2026-02-28 12:00,47.1,V,A,42.80,V,R,21.6,V,R,52,V,R,5.6,V,R,321,,
+2026-02-28 13:00,46.4,V,A,42.80,V,R,21.6,V,R,52,V,R,7.0,V,R,310,,
+2026-02-28 14:00,44.8,V,A,42.80,V,R,21.6,V,R,52,V,R,6.6,V,R,309,,
+2026-02-28 15:00,45.0,V,A,42.80,V,R,21.6,V,R,52,V,R,7.7,V,R,321,,
+2026-02-28 16:00,43.2,V,A,42.90,V,R,21.6,V,R,52,V,R,8.6,V,R,335,,
+2026-02-28 17:00,42.8,V,A,42.90,V,R,21.6,V,R,52,V,R,9.6,V,R,318,,
+2026-02-28 18:00,41.5,V,A,42.90,V,R,21.5,V,R,51,V,R,10.1,V,R,307,,
+2026-02-28 19:00,40.8,V,A,42.90,V,R,21.5,V,R,51,V,R,9.8,V,R,294,,
+2026-02-28 20:00,40.5,V,A,42.90,V,R,21.5,V,R,51,V,R,6.9,V,R,311,,
+2026-02-28 21:00,40.3,V,A,42.80,V,R,21.4,V,R,51,V,R,4.6,V,R,44,,
+2026-02-28 22:00,39.6,V,A,42.90,V,R,21.4,V,R,51,V,R,6.9,V,R,342,,
+2026-02-28 23:00,39.6,V,A,42.90,V,R,21.4,V,R,51,V,R,6.3,V,R,313,,
